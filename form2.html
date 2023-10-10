@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+</head>
+<style>
+    .main{width:30%;
+          margin: auto;
+         background-color: white;
+         
+        }
+    input{
+        width: 40%;
+padding: 7px;
+margin: 10px 10px;
+border-radius: 7px;
+border:none ;
+background-color: rgb(227, 223, 223);
+    }
+    .email{width:90%;}
+    button{background-color: blue;}
+    .checkbox{width:5%}
+</style>
+<body style="background-color:rgb(214, 213, 213) ; width:50 ;">
+    <div class="main">
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Great</h1>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signup your account</h2>
+    <form action="/action_page.php">
+    <label for="firstname">&nbsp;&nbsp;&nbsp;First Name</label>
+    <label for=lastname>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Name</label><br>
+    <input type="text" id="firstname"name="firstname">
+    <input type="text" id="lastname"name="lastname"><br>
+    <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;Email</label><br>
+    <input type="text"id="email"name="email" class="email"><br>
+    <label for="mobileno">&nbsp;&nbsp;&nbsp;Mobile No</label>
+    <label for="birthdate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Birth date</label><br>
+    <input type="text" id="mobileno"name="mobileno">
+    <input type="text" id="birthdate"name="birtdate"><br>
+    <input type="checkbox" class="checkbox">
+    <label for="checkbock">Are you agree?</label>  
+     <center><input type="Submit"id=button name="button" class="button" style="background-color:rgb(19, 19, 194) ;"></center>
+    </form>
+    </div>
+</body>
+</html>
